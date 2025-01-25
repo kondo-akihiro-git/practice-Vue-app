@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "my-vue-app",
+=======
+  "name": "vue-json-app",
+>>>>>>> bdf2449 (ディレクトリ修正)
   "version": "0.1.0",
   "private": true,
   "scripts": {

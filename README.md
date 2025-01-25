@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # my-vue-app
+=======
+# vue-json-app
+>>>>>>> bdf2449 (ディレクトリ修正)
 
 ## Project setup
 ```
