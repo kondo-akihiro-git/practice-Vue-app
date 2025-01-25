@@ -4,7 +4,7 @@ module.exports = defineConfig({
 })
 
 module.exports = {
-  publicPath: '/practice-Vue-app/', // リポジトリ名を設定
+  publicPath: process.env.NODE_ENV === 'production' ? '/practice-Vue-app/' : '/'
 };
 
 

@@ -20,9 +20,12 @@ export default {
         fetch('/data/sample.json')
             .then(response => response.json())
             .then(data => {
-                this.jsonData = data;
+                console.log(data);
             })
-            .catch(err => console.error(err));
+            .catch(error => {
+                console.error('Error fetching JSON:', error);
+            });
+
     }
 };
 </script>
